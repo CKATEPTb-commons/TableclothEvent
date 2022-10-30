@@ -24,7 +24,6 @@ public class EventBus {
                                 || !cancelableEvent.isCanceled()
                                 || wrapper.isIgnoreCanceled()) {
                             wrapper.handle(event);
-                            System.out.println(wrapper.getPriority().name());
                         }
                     });
         }

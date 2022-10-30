@@ -16,7 +16,7 @@ plugins {
     id("io.github.gradle-nexus.publish-plugin").version("1.1.0")
 }
 group = "dev.ckateptb.common"
-version = "1.0.0-SNAPSHOT"
+version = "1.0.1-SNAPSHOT"
 
 val rootPackage = "${project.group}.${project.name.toLowerCase()}"
 val internal = "${rootPackage}.internal"
